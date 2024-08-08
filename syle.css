@@ -1,0 +1,204 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(./IMAGE/backgroundImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.header {
+    
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+    & img {
+        width: 200px;
+    }
+
+    & .selectbutton {
+        display: flex;
+        
+
+    }
+
+    & .select select{
+        width: auto;
+        padding: 8px 30px;
+        background-color: rgba(0, 0, 0, 0.422);
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: "roboto" ,sans-serif;
+
+    }
+    
+    & .button button{
+
+        background-color: red;
+        border: none;
+        width: auto;
+        padding: 8px 15px;
+        margin-left: 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
+
+.button button a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "roboto" ,sans-serif;
+
+}
+
+.button button:hover {
+    background-color: rgb(177, 20, 20);
+}
+
+.titulo {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 150px auto 0 auto;
+    
+
+    & h1{
+        color: white;
+        font-family: "roboto" ,sans-serif;
+        justify-content: center;
+        margin-bottom: 15px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    & p {
+        color: white;
+        font-family: "roboto" ,sans-serif;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+}
+
+.cadastro {
+    max-width: 1280px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
+    align-items: center;
+
+    & input {
+        width:400px;
+        background-color: #c1c1c126;
+        padding: 15px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.595);
+        border-radius: 5px;
+        color: white;
+        margin-right: 4px;
+    }
+
+    & button {
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        width: 180px;
+    }
+
+    & button a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 22px;
+        font-family: "roboto" ,sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+    }
+
+    & button a span {
+        margin-left: 10px;
+        width: 100px;
+        font-weight: 100;
+
+    }
+}
+
+.cadastro input:focus {
+    border: 2px solid green;
+    outline: green;
+}
+
+/* .cadastro button a::after {
+    content: "\203A";
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 15px;
+} */
+
+.cadastro button:hover {
+    background-color: rgb(177, 20, 20);
+}
+
+.footer {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: linear-gradient(to right,#000000, #181049, #e409144f, #181049, #000000);
+    position: relative;
+    align-items: center;
+    padding: 20px;
+
+
+    & img {
+        width: 200px;
+        position: absolute;
+        left: 200px;
+    }
+
+    & h2 {
+        color: white;
+        font-family: "roboto" ,sans-serif;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    & p {
+        color: white;
+        font-family: "roboto" ,sans-serif;
+        margin-bottom: 12px;
+        
+    }
+
+    & a {
+        color: rgb(77, 122, 169);
+        font-family: "roboto" ,sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+.teste2 {
+    background-color: black;
+    padding-bottom: 80px;
+}
